@@ -10,7 +10,7 @@ export default function Navbar() {
       <ul>
         <li className="logo">
           <img src={Temple} alt="dojo logo" />
-          <span>The Dojo</span>
+          <span>The Site</span>
         </li>
 
         <li><Link to="/login">Login</Link></li>
