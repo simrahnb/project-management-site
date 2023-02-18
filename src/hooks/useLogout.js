@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { projectAuth, projectFirestore } from "../firebase/config";
 import { useAuthContext } from "./useAuthContext";
-import userEvent from "@testing-library/user-event";
 
 export const useLogout = () => {
   const [isCancelled, setIsCancelled] = useState(false);
